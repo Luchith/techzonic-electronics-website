@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    }
+body{
+    background-color:rgb(240, 244, 248);
+    font-family: 'Roboto', sans-serif;
+    } 
+    .tech{
+        position: absolute;
+        height: auto;
+        left: 0px;
+        width: 80px;   
+     } 
+     label.logo{
+        color: white;
+        font-size: 35px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+ }
+.about-1{
+    margin: 30px;
+    padding: 50px;    
+    }
+.about-1 h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+        
+    }
+.about-1 p{
+    text-align:center;
+    font-size: 25px;
+    padding: 3px;
+    color:#088F8F;
+    font-weight: bold;
+    }
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 80px 80px 50px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+    }
+.about-item h3{
+    font-size: 35px;
+    margin: 10px;
+    color: #088F8F ;
+    }
+
+.about-item p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    }
+.about-item:hover{
+    background-color:rgb(240, 244, 248);
+    }
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color:#088F8F ;
+    }
+.about-item:hover hr{
+    background-color: black;
+   
+    }
+.about-item:hover hr{
+    transform: translateY(-10px);
+    }
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    transition: all 400ms ease-in-out;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      
+      main {
+        flex: 1;
+      }
+      
+      footer {
+        background: #212226;
+        padding: 20px;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+      }
+      

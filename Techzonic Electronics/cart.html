@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,900;1,300;1,400;1,500&display=swap');
+      </style>
+</head>
+<body>
+        <header>
+                    <div class="nav container">
+                     <a href="webpage1.html" class="logo">Techzonic Electronics</a>
+                     <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                     <div class="cart">
+                        <h2 class="cart-title"> Your Cart</h2>
+
+                        <div class="cart-content">
+                            <div class="cart-box">
+                            <img src="transistors.png" alt="" class="cart-img">
+                            <div class="detail-box">
+                                    <div class="cart-product-title">Transistors</div>
+                                    <div class="cart-price">$0.8</div>
+                                    <input type="number" value="1" class="cart-quantity">
+                                    </div>
+                                    <i class='bx bx-trash-alt cart-remove'></i>
+                            
+                                
+                            </div>                            
+                            
+                            
+                            <div class="total">
+                                <div class="total-title">Total</div>
+                                <div class="total-price">$0</div>
+                                </div>
+                                <button type="button" class="btn-buy">Buy Now</button>
+                                <i class='bx bx-x' id="close-cart"></i>
+                                </div>
+                                </div>
+        </header>
+        <section class="shop container">
+            <h2 class="section-title">Shop Products</h2>
+                 <div class="shop-content">
+
+                                    <div class="product-box">
+                                    <img src="transistors.png" alt="" class="product-img">
+                                    <h2 class="product-title">Transistors</h2>
+                                    <span class="price">$0.8</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                    
+                                    <div class="product-box">
+                                    <img src="capacitors.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Capacitors</h2>
+                                    <span class="price">$0.9</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="resistors.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Resistors</h2>
+                                    <span class="price">$1</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="diodes.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Diodes</h2>
+                                    <span class="price">$1.5</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                    
+                                    <div class="product-box">
+                                    <img src="circuitboards.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Circuitboards</h2>
+                                    <span class="price">$2</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="LCD.png" alt="" class="product-img">
+                                    <h2 class="product-title">LCD Display Modules</h2>
+                                    <span class="price">$4</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                    
+                                    <div class="product-box">
+                                    <img src="LDR-module-3-pin.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">LDR Sensor Modules</h2>
+                                    <span class="price">$5</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                    
+                                    <div class="product-box">
+                                    <img src="led.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">LED Bulbs</h2>
+                                    <span class="price">$0.5</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                    
+                                    <div class="product-box">
+                                    <img src="Micromotors.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Micro Motors</h2>
+                                    <span class="price">$0.6</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                   
+                                    <div class="product-box">
+                                    <img src="power.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Power Supply Adaptor</h2>
+                                    <span class="price">$10</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="switchescircuit.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Switches</h2>
+                                    <span class="price">$1</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="wires.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Circuit wires</h2>
+                                    <span class="price">$0.9</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="9v.png" alt="" class="product-img">
+                                    <h2 class="product-title">9volts battery</h2>
+                                    <span class="price">$1.5</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="multimeter.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">multimeter</h2>
+                                    <span class="price">$15</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                     <img src="alinico.jpg" alt="" class="product-img">
+                                     <h2 class="product-title">Alinico Magnets</h2>
+                                    <span class="price">$1.2</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                     </div>
+
+                                    <div class="product-box">
+                                    <img src="iron.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Electric Soldering Iron</h2>
+                                    <span class="price">$14</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+                                                        
+                                    <div class="product-box">
+                                    <img src="12vtrans.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">12v transformer</h2>
+                                    <span class="price">$2</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                     </div>
+                                                        
+                                    <div class="product-box">
+                                    <img src="conectors.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Connectors</h2>
+                                    <span class="price">$1</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="mini speaker.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">mini speaker</h2>
+                                    <span class="price">$2</span>
+                                     <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="inductors.jpeg" alt="" class="product-img">
+                                    <h2 class="product-title">inductors</h2>
+                                    <span class="price">$2</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="screw.jpg" alt="" class="product-img">
+                                    <h2 class="product-title"> Screwdrivers</h2>
+                                    <span class="price">$5</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="heatergun.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Heater Gun</h2>
+                                    <span class="price">$22</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                                    <div class="product-box">
+                                    <img src="intergrated.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">IC</h2>
+                                    <span class="price">$0.6</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                     </div>
+                                                      
+                                    <div class="product-box">
+                                    <img src="audrino.jpg" alt="" class="product-img">
+                                    <h2 class="product-title">Arduino UNO REV3</h2>
+                                    <span class="price">$15</span>
+                                    <i class='bx bx-shopping-bag add-cart'></i>
+                                    </div>
+
+                            </div>
+                        </section>>
+        </section> 
+        <script src="cart.js"></script>
+</body>
+</html>
